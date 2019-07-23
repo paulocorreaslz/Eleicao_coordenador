@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="602,713" id="eleicao" metadata="uml2-1.0" initialized="true" tag="10" key="323030353032323820736F6D">
+  <children xsi:type="editmodel:ClassEditModel" name="Servidor" location="460,180" size="165,139" id="eleicao/Servidor" runTimeClassModel="recebeEleicao(),getIpNovoCoordenador(),isNovaEleicaonoAr(),setIpNovoCoordenador(Ljava.lang.String;),run()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,90">
+      <children xsi:type="editmodel:MethodEditModel" name="getIpNovoCoordenador" id="eleicao/Servidor#getIpNovoCoordenador()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isNovaEleicaonoAr" id="eleicao/Servidor#isNovaEleicaonoAr()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="recebeEleicao" id="eleicao/Servidor#recebeEleicao()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="eleicao/Servidor#run()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setIpNovoCoordenador" id="eleicao/Servidor#setIpNovoCoordenador(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Cliente" location="480,20" size="125,139" id="eleicao/Cliente" runTimeClassModel="destroy(),getParticipante(),run(Ljava.lang.String;),iniciaEleicao(Ljava.lang.String;),Cliente(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,90">
+      <children xsi:type="editmodel:MethodEditModel" name="Cliente" id="eleicao/Cliente#Cliente(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="destroy" id="eleicao/Cliente#destroy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getParticipante" id="eleicao/Cliente#getParticipante()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iniciaEleicao" id="eleicao/Cliente#iniciaEleicao(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="eleicao/Cliente#run(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Mensagem" location="720,189" size="112,139" id="eleicao/Mensagem" runTimeClassModel="setHost(Ljava.lang.String;),Mensagem(Ljava.lang.String;Ljava.lang.String;),setTipo(Ljava.lang.String;),getHost(),getTipo()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="83,90">
+      <children xsi:type="editmodel:MethodEditModel" name="Mensagem" id="eleicao/Mensagem#Mensagem(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getHost" id="eleicao/Mensagem#getHost()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTipo" id="eleicao/Mensagem#getTipo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setHost" id="eleicao/Mensagem#setHost(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTipo" id="eleicao/Mensagem#setTipo(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="IniciaProcesso" location="40,225" size="135,67" id="eleicao/IniciaProcesso" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="53,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="eleicao/IniciaProcesso#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Processo" location="230,60" size="165,337" id="eleicao/Processo" runTimeClassModel="getId(),testaCoordenador(Ljava.lang.String;),recebeEleicao(),Processo(Ljava.lang.String;Ljava.lang.String;),getIP(),participantes,lerConfig(),iniciaEleicao(),setIpcoordenadorAtual(Ljava.lang.String;),setId(Ljava.lang.String;),maiores,setidCoordenadorAtual(I),getidCoordenadorAtual(),setIP(Ljava.lang.String;),getParticipantes(),getIpcoordenadorAtual()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="133,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="maiores" id="eleicao/Processo#maiores"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="participantes" id="eleicao/Processo#participantes"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,252">
+      <children xsi:type="editmodel:MethodEditModel" name="Processo" id="eleicao/Processo#Processo(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIP" id="eleicao/Processo#getIP()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getId" id="eleicao/Processo#getId()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIpcoordenadorAtual" id="eleicao/Processo#getIpcoordenadorAtual()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getParticipantes" id="eleicao/Processo#getParticipantes()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getidCoordenadorAtual" id="eleicao/Processo#getidCoordenadorAtual()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iniciaEleicao" id="eleicao/Processo#iniciaEleicao()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lerConfig" id="eleicao/Processo#lerConfig()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="recebeEleicao" id="eleicao/Processo#recebeEleicao()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setIP" id="eleicao/Processo#setIP(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setId" id="eleicao/Processo#setId(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setIpcoordenadorAtual" id="eleicao/Processo#setIpcoordenadorAtual(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setidCoordenadorAtual" id="eleicao/Processo#setidCoordenadorAtual(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="testaCoordenador" id="eleicao/Processo#testaCoordenador(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Coordenador" location="468,340" size="150,121" id="eleicao/Coordenador" runTimeClassModel="testaCoordenador(Ljava.lang.String;),run(Ljava.lang.String;),isCoordenadorAtivo(),Coordenador()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="127,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Coordenador" id="eleicao/Coordenador#Coordenador()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isCoordenadorAtivo" id="eleicao/Coordenador#isCoordenadorAtivo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="eleicao/Coordenador#run(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="testaCoordenador" id="eleicao/Coordenador#testaCoordenador(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
